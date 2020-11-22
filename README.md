@@ -3,7 +3,7 @@
 
 ![spoiler](https://raw.githubusercontent.com/PsychOpilio/NF_Capstone_Spoiler_Detection/main/spoiler.gif)
 
-This project on spoiler detection in book reviews is in collaboration with [GHabeck](https://github.com/GHabeck).
+This project on spoiler detection in book reviews is in collaboration with [GHabeck](https://github.com/GHabeck); visit his profile for completive material/ models.
 
 Consulting customer reviews to come to a decision whether to buy the crime novel or not and in the process stumbling over the solution that the gardener killed the housemaid  - spoilers are every reader’s nightmare. 
 To address this issue and save readers from future spoiler experiences, our project aims at training text classification algorithms to automatically detect plot twists in book reviews. 
