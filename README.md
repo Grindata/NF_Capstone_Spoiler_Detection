@@ -18,6 +18,9 @@ But we'll keep track and continuously work on model improvements!
 
 ### Table of Contents
 [Data Acquisition](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/Data.ipynb)
+
 [Standard Preprocessing](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/Preprocessing.ipynb)
+
 [Exploratory Data Analysis](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/EDA.ipynb)
+
 [Text Preprocessing]()
