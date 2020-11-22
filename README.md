@@ -1,4 +1,5 @@
-## NF_Capstone_Spoiler_Detection
+## Silver Silence and Golden Speech
+### Spoiler Detection in Book Reviews
 
 This project on spoiler detection in book reviews is in collaboration with [GHabeck](https://github.com/GHabeck).
 
