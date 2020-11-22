@@ -16,3 +16,8 @@ Since this is our first NLP project, we set our focus on trying out and getting 
 On the whole, model performances are, at this point, not satisfying yet. At this stage, a balanced random forest trained with whole reviews (as compared with sentence-wise training) in combination with genre metadata produces the best results. 
 But we'll keep track and continuously work on model improvements! 
 
+### Table of Contents
+[Data Acquisition](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/Data.ipynb)
+[Standard Preprocessing](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/Preprocessing.ipynb)
+[Exploratory Data Analysis](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/EDA.ipynb)
+[Text Preprocessing]()
