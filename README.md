@@ -13,7 +13,7 @@ The dataset contains more than 1.3 million reviews of about 25,000 booky by 19,0
 
 Since this is our first NLP project, we set our focus on trying out and getting familiar with different approaches of text preprocessing and text classification, of which only the most promising are uploaded here. Interestingly, ML algorithms like random forests outperformed neural network models.
 
-On the whole, model performances are, at this point, not satisfying yet. At this stage, a balanced random forest trained with whole reviews (as compared with sentence-wise training) in combination with genre metadata produces the best results. 
+On the whole, model performances are, at this point, not satisfying yet.
 But we'll keep track and continuously work on model improvements! 
 
 ### Table of Contents
