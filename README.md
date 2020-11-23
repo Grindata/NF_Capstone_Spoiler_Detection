@@ -1,7 +1,7 @@
 ## Silver Silence and Golden Speech
 ### Spoiler Detection in Book Reviews
 
-![spoiler](https://raw.githubusercontent.com/PsychOpilio/NF_Capstone_Spoiler_Detection/main/spoiler.gif)
+![spoiler](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/spoiler.gif)
 
 This project on spoiler detection in book reviews is in collaboration with [GHabeck](https://github.com/GHabeck); visit his profile for completive material/ models.
 
