@@ -26,3 +26,20 @@ But we'll keep track and continuously work on model improvements!
 [Text Preprocessing](models/Text_Preprocessing.ipynb)
 
 [Models (Baseline SGD, ULMFiT, Balanced Random Forest)](models)
+
+### Summary of results
+
+|                                           | review-wise or sentence-wise training? | training data downsampled ? | including metadata?     | overall accuracy | spoiler recall | spoiler precision | non-spoiler recall | non-spoiler precision |
+|-------------------------------------------|----------------------------------------|-----------------------------|-------------------------|------------------|----------------|-------------------|--------------------|-----------------------|
+| Stochastic Gradient Classifier (Baseline) | review-wise                            | no                          | no                      | .91              | .40            | .36               | .95                | .95                   |
+| Stochastic Gradient Classifier (Baseline) | sentence-wise                          | no                          | no                      | .96              | .53            | .39               | .97                | .98                   |
+| Stochastic Gradient Classifier            | review-wise                            | yes                         | no                      | .70              | .89            | .65               | .52                | .83                   |
+| Stochastic Gradient Classifier            | sentence-wise                          | yes                         | no                      | .84              | .68            | .52               | .87                | .93                   |
+| Stochastic Gradient Classifier            | review-wise                            | yes                         | yes (1 feature)         | .76              | .68            | .18               | .77                | .97                   |
+| Stochastic Gradient Classifier            | sentence-wise                          | yes                         | yes (1 feature)         | .52              | .72            | .05               | .52                | .98                   |
+| Balanced Random Forest                    | review-wise                            | yes                         | no                      | .63              | .95            | .16               | .61                | .99                   |
+| Balanced Random Forest                    | sentence-wise                          | yes                         | no                      | .58              | .92            | .07               | .57                | 1.00                  |
+| Balanced Random Forest                    | review-wise                            | yes                         | yes (1 feature)         | .82              | .86            | .26               | .81                | .99                   |
+| Balanced Random Forest                    | review-wise                            | yes                         | yes (separate features) | .65              | .94            | .16               | .63                | .99                   |
+| Balanced Random Forest                    | sentence-wise                          | yes                         | yes (1 feature)         | .96              | .12            | .29               | .99                | .97                   |
+| ULMFiT                                    | review-wise                            | no                          | no                      | .07              |                |                   |                    |                       |
