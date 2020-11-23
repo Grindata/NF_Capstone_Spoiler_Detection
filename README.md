@@ -24,3 +24,5 @@ But we'll keep track and continuously work on model improvements!
 [Exploratory Data Analysis](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/EDA.ipynb)
 
 [Text Preprocessing](models/Text_Preprocessing.ipynb)
+
+[Models (Baseline SGD, ULMFiT, Balanced Random Forest)](models)
