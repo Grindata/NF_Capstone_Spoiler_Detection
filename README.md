@@ -43,3 +43,6 @@ But we'll keep track and continuously work on model improvements!
 | Balanced Random Forest                    | review-wise                            | yes                         | yes (separate features) | .65              | .94            | .16               | .63                | .99                   |
 | Balanced Random Forest                    | sentence-wise                          | yes                         | yes (1 feature)         | .96              | .12            | .29               | .99                | .97                   |
 | ULMFiT                                    | review-wise                            | no                          | no                      | .07              |                |                   |                    |                       |
+
+So far, the best model is a SVM with higher class weights for spoilers trained on downsampled review texts (without metadata: good spoiler detection but many false positives and, as compared with other models, decreased performance on non-spoiler reviews.
+We'll keep track to find a more appropriate solution for this complex classification problem.
