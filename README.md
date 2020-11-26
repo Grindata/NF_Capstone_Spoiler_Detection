@@ -46,5 +46,8 @@ Since this is our first NLP project, we set our focus on trying out and getting 
 
 So far, the best model is a SVM with higher class weights for spoilers trained on downsampled review texts (without metadata: good spoiler detection but many false positives and, as compared with other models, decreased performance on non-spoiler reviews.
 
-We'll keep track to find a more appropriate solution for this complex classification problem.
 ![auc](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/AUC_best_model.jpeg)
+
+We'll keep track to find a more appropriate solution for this complex classification problem.
+
+
