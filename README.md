@@ -10,11 +10,10 @@ To address this issue and save readers from future spoiler experiences, our proj
 
 The data for this project are available at [UCSD Book Graph](https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home). 
 The dataset contains more than 1.3 million reviews of about 25,000 booky by 19,000 users. Besides the review text with marked spoilers, the dataset includes features on spoiler labels, reviewer ID, book ID, overall book rating and timestamp. Metadata like genre, title, etc. are also available.
+Unfortunately, the dataset is quite imbalanced: Only 6% of reviews contain spoilers, considering the review _sentences_, the proportion is unequally smaller.
 
-Since this is our first NLP project, we set our focus on trying out and getting familiar with different approaches of text preprocessing and text classification, of which only the most promising are uploaded here. Interestingly, ML algorithms like random forests outperformed neural network models.
+Since this is our first NLP project, we set our focus on trying out and getting familiar with different approaches of text preprocessing and text classification, of which only the most promising are uploaded here. Interestingly, simpler ML algorithms outperformed neural network models.
 
-On the whole, model performances are, at this point, not satisfying yet.
-But we'll keep track and continuously work on model improvements! 
 
 ### Table of Contents
 [Data Acquisition](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/Data.ipynb)
@@ -26,6 +25,7 @@ But we'll keep track and continuously work on model improvements!
 [Text Preprocessing](models/Text_Preprocessing.ipynb)
 
 [Models (Baseline SGD, ULMFiT, Balanced Random Forest)](models)
+
 
 ### Summary of results
 
@@ -45,4 +45,6 @@ But we'll keep track and continuously work on model improvements!
 | ULMFiT                                    | review-wise                            | no                          | no                      | .07              |                |                   |                    |                       |
 
 So far, the best model is a SVM with higher class weights for spoilers trained on downsampled review texts (without metadata: good spoiler detection but many false positives and, as compared with other models, decreased performance on non-spoiler reviews.
+
 We'll keep track to find a more appropriate solution for this complex classification problem.
+![auc](https://github.com/PsychOpilio/NF_Capstone_Spoiler_Detection/blob/main/AUC_best_model.jpeg)
